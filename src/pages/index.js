@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Description from '../components/Description'
 import Languages from '../components/Languages'
 import Head from '../components/Head'
-import Projects from '../components/projects'
+import Projects from '../components/Projects'
 import '../styles/index.css'
 
 const Wrapper = styled.div`
