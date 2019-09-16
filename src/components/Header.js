@@ -23,11 +23,21 @@ const Desc = styled.div`
   @media (max-width: 720px) {
     font-size: 20px;
     line-height: 25px;
+    display: flex;
+    width: 100%;
   }
 `
 
 const NavHeaderContent = styled.div`
-  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  @media (max-width: 720px) {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
 `
 
 const Name = styled.h1`

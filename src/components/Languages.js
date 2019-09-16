@@ -7,7 +7,11 @@ const Title = styled.h2`
   font-weight: bold;
   color: #000;
   font-size: 60px;
-  line-height: 45px;
+  line-height: 15px;
+  @media (max-width: 720px) {
+    font-size: 40px;
+    line-height: 35px;
+  }
 `
 
 const Languages = ({ languages, libraries, server }) => {

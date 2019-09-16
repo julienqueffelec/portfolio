@@ -11,6 +11,13 @@ const Title = styled.h2`
   color: #000;
   font-size: 60px;
   line-height: 5px;
+  @media (max-width: 720px) {
+    font-size: 40px;
+  }
+`
+
+const Projet = styled.li`
+  list-style: none;
 `
 
 const Projects = ({ img, name }) => {
@@ -51,11 +58,11 @@ const Projects = ({ img, name }) => {
         {data.allContentfulProjects.edges.map(edge => {
           return (
             <div>
-              <div key={edge.node.order}>
+              <Projet key={edge.node.order}>
                 <h2>{edge.node.title}</h2>
                 <p>{edge.node.publishedDate}</p>
                 {documentToReactComponents(edge.node.body.json, options)}
-              </div>
+              </Projet>
             </div>
           )
         })}

@@ -4,8 +4,17 @@ import MailIcon from '../images/icon-mail.svg'
 import LinkedinIcon from '../images/icon-linkedin.svg'
 
 const StyledDescription = styled.div`
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
   svg {
     vertical-align: middle;
+  }
+  ul {
+    padding: 0;
+    @media (max-width: 720px) {
+      margin: 5px 10px;
+    }
   }
   li {
     list-style: none;
@@ -13,6 +22,10 @@ const StyledDescription = styled.div`
   a {
     color: #000;
     margin-left: 5px;
+  }
+  @media (max-width: 720px) {
+    width: 100%;
+    box-sizing: border-box;
   }
 `
 

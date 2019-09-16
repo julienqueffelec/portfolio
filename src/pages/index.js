@@ -10,8 +10,14 @@ import Projects from '../components/Projects'
 import '../styles/index.css'
 
 const Wrapper = styled.div`
-  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
   margin: 0 auto;
+  @media (max-width: 720px) {
+    width: 100%;
+    margin: 0 px;
+  }
 `
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -34,7 +40,6 @@ const IndexPage = () => {
       <Head title="Julien Queffelec" />
       <Header></Header>
       <Description email={data.site.siteMetadata.email} />
-
       <Wrapper>
         <Languages
           languages={data.site.siteMetadata.languages}
