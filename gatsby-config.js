@@ -12,6 +12,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/images/favicon.ico',
+      },
+    },
+    {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
