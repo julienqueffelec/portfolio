@@ -12,7 +12,7 @@ const NavHeader = styled.div`
   color: #fff;
   line-height: 50px;
   @media (max-width: 720px) {
-    height: 180px;
+    height: 220px;
   }
 `
 const Desc = styled.div`
@@ -25,6 +25,7 @@ const Desc = styled.div`
     line-height: 25px;
     display: flex;
     width: 100%;
+    margin-top: 20px;
   }
 `
 
@@ -75,8 +76,8 @@ const Header = ({ img, name }) => {
         <Name>Julien Queffelec</Name>
         <Desc>
           Développeur full-stack. Je m'intérese aux technos web récentes comme
-          React, GraphQL et Gatsby avec une maîtrise des technos plus anciennes
-          comme jQuery, PHP, SQL.
+          React, GraphQL et Gatsby et des outils comme GitLab avec une maîtrise
+          des technos plus anciennes comme jQuery, PHP, SQL.
         </Desc>
       </NavHeaderContent>
     </NavHeader>
