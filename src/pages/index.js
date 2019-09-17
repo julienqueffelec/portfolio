@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 import Header from '../components/Header'
 import Description from '../components/Description'
-import Languages from '../components/Languages'
 import Head from '../components/Head'
 import Projects from '../components/Projects'
 import '../styles/index.css'
@@ -29,7 +28,6 @@ const IndexPage = () => {
           job
           languages
           libraries
-          server
           email
         }
       }
@@ -41,11 +39,6 @@ const IndexPage = () => {
       <Header></Header>
       <Description email={data.site.siteMetadata.email} />
       <Wrapper>
-        <Languages
-          languages={data.site.siteMetadata.languages}
-          libraries={data.site.siteMetadata.libraries}
-          server={data.site.siteMetadata.server}
-        />
         <Projects />
       </Wrapper>
     </div>

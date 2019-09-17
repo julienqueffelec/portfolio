@@ -8,7 +8,7 @@ const NavHeader = styled.div`
   height: 240px;
   left: 0px;
   top: 0px;
-  background: #7b42f6;
+  background: #172432;
   color: #fff;
   line-height: 50px;
   @media (max-width: 720px) {
@@ -75,7 +75,8 @@ const Header = ({ img, name }) => {
         <Name>Julien Queffelec</Name>
         <Desc>
           Développeur full-stack. Je m'intérese aux technos web récentes comme
-          React, GraphQL et Gatsby.
+          React, GraphQL et Gatsby avec une maîtrise des technos plus anciennes
+          comme jQuery, PHP, SQL.
         </Desc>
       </NavHeaderContent>
     </NavHeader>

@@ -8,7 +8,6 @@ module.exports = {
     job: 'Armor-Lux',
     languages: 'JavaScript, PHP, GraphQL, HTML, CSS',
     libraries: 'React, Gatsby, jQuery',
-    server: 'Apache, NodeJS',
   },
   plugins: [
     {
