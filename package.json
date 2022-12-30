@@ -15,7 +15,7 @@
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^13.4.0",
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.15.16",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-react-helmet": "^3.1.7",
     "gatsby-plugin-react-svg": "^2.1.2",
